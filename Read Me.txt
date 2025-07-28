@@ -1,0 +1,80 @@
+﻿
+Social Media Forecasting Dashboard
+
+
+This Streamlit app predicts Click-Through Rate (CTR) and Engagement Rate for different social media platforms using time-series forecasting with Facebook Prophet.
+
+---
+
+Live Demo
+[Check out the deployed app here]
+(https://ml-final-project-app.streamlit.app/)
+FORECAST Project
+
+---
+
+Problem Statement
+
+Modern marketing teams need accurate forecasts for engagement and CTR across social platforms like Instagram, Facebook, and LinkedIn. This app enables:
+
+- 📈 Monthly metric tracking
+- 🔮 Forecasting with Prophet
+- ✅ Business insights for content planning
+
+---
+
+Key Features
+
+- Dropdown selectors for:
+  - Channel: FacebookPage, LinkedInCompanyPage, Instagram
+  - Metric: CTR or Engagement Rate
+  - Month: past + upcoming months
+- Displays actual and forecasted values
+- Visual trend comparison chart (actual vs. predicted)
+
+---
+
+Tech Stack
+
+- **Frontend**: [Streamlit](https://streamlit.io)
+- **Backend Forecasting**: [Facebook Prophet](https://facebook.github.io/prophet/)
+- **Data Handling**: `pandas`, `numpy`, `openpyxl`
+- **Visualization**: `matplotlib`
+
+---
+
+Files in This Repo
+
+FileDescriptionML_FINAL_PROJECT_app.pyMain Streamlit app SOPRA STERIA DATA.xlsxInput datasetrequirements.txtAll required Python packagesREADME.mdDocumentation
+
+---
+
+Setup Instructions (Local)
+
+1. Clone this repo
+2. Install packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the app:
+   ```bash
+   streamlit run ML_FINAL_PROJECT_app.py
+   ```
+
+---
+
+Sample Forecast Output
+
+ChannelMetricMonthActualForecastFacebookPageCTRJuly1.2%1.5%
+---
+
+Author
+
+Debdeep Mishra 
+📧 debdeep.mishra@ext.soprasteria.com
+
+---
+
+License
+
+MIT – free to use, modify, and share.
